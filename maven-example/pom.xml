@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jfrog.test</groupId>
     <artifactId>multi</artifactId>
-    <version>1.0</version>
+    <version>version_tag_for_build</version>
     <packaging>pom</packaging>
     <name>Simple Multi Modules Build</name>
 
