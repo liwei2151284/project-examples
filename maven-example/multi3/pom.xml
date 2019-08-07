@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
+    <!--parent>
         <groupId>org.jfrog.test</groupId>
         <artifactId>multi</artifactId>
         <version>version_tag_for_build</version>
-    </parent>
-
+    </parent-->
+    
+    <groupId>org.jfrog.test</groupId>
+    <version>version_tag_for_build</version>
     <artifactId>multi3</artifactId>
     <packaging>war</packaging>
     <name>Multi 3</name>
@@ -14,9 +16,9 @@
     <dependencies>
         <!-- depends on another project (should include transitive) -->
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>org.jfrog.test</groupId>
             <artifactId>multi1</artifactId>
-           <version>${project.parent.version}</version>
+           <version>1.0.82</version>
         </dependency>
        
 
