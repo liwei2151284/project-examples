@@ -6,7 +6,9 @@
         <artifactId>multi</artifactId>
         <version>version_tag_for_build</version>
     </parent-->
-
+    <groupId>org.jfrog.test</groupId>  
+    <version>version_tag_for_build</version>
+    
     <artifactId>multi1</artifactId>
     <packaging>jar</packaging>
     <name>Multi 1</name>
