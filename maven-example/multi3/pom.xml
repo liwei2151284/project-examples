@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.jfrog.common</groupId>
             <artifactId>jfrog-common</artifactId>
-           <version>1.0.1</version>
+           <version>jfrog-common_lastest_version</version>
         </dependency>
        
 
