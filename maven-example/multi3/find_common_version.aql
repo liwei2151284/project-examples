@@ -4,6 +4,6 @@ items.find(
         "name":{"$match":"jfrog-common-*.jar"},
         "@xray.scan":{"$eq":"scanned"},
         "@qa.test.unitPassRate":{"$eq":"1"},
-        "@qa.test.sonarIssue":{"$lte":"4"},
+        "@qa.test.sonarIssue":{"$lte":"7"},
         "@qa.test.status":{"$eq":"done"}
 }).sort({"$desc":["created"]})
