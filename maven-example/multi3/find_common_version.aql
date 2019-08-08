@@ -1,0 +1,9 @@
+items.find(
+        {
+        "repo":{"$eq":"jenkins_pipeline_webinar_release_local"},
+        "name":{"$match":"jfrog-common-*.jar"},
+        "@xray.scan":{"$eq":"scanned"},
+        "@qa.test.unitPassRate":{"$eq":"1"},
+        "@qa.test.sonarIssue":{"$lte":"4"},
+        "@qa.test.status":{"$eq":"done"}
+})
