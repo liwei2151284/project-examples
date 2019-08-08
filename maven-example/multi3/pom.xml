@@ -7,18 +7,18 @@
         <version>version_tag_for_build</version>
     </parent-->
     
-    <groupId>org.jfrog.test</groupId>
+    <groupId>org.jfrog.app</groupId>
     <version>version_tag_for_build</version>
-    <artifactId>multi3</artifactId>
+    <artifactId>app</artifactId>
     <packaging>war</packaging>
-    <name>Multi 3</name>
+    <name>JFrog app</name>
 
     <dependencies>
         <!-- depends on another project (should include transitive) -->
         <dependency>
-            <groupId>org.jfrog.test</groupId>
-            <artifactId>multi1</artifactId>
-           <version>1.0.82</version>
+            <groupId>org.jfrog.common</groupId>
+            <artifactId>jfrog-common</artifactId>
+           <version>1.0.1</version>
         </dependency>
        
 
