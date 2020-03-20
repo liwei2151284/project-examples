@@ -5,9 +5,7 @@
     "start": "node app"
   },
   "dependencies": {
-    "send": "^0.16.2"
-  },
-  "dependencies": {
+    "send": "^0.16.2",
     "webpack-dev-server": "^3.8.0"
   },
   "devDependencies": {
