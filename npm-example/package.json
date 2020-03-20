@@ -7,6 +7,9 @@
   "dependencies": {
     "send": "^0.16.2"
   },
+  "dependencies": {
+    "webpack-dev-server": "^3.8.0"
+  },
   "devDependencies": {
     "debug": "^4.1.1"
   }
